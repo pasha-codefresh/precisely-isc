@@ -8,3 +8,6 @@ gitops-runtime:
           key: token
     runtime:
       name: codefresh
+  argo-cd:
+    controller:
+      replicas: 0
