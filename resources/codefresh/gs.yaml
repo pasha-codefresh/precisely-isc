@@ -6,7 +6,7 @@ metadata:
     codefresh.io/entity: 'git-source'
     codefresh.io/internal: 'false'
   finalizers:
-  - resources-finalizer.argocd.argoproj.io
+  - resources-finalizer.argocd.argoproj.io/no-cascade
 spec:
   project: default
   source:
