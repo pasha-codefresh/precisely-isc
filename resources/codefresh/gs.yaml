@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/pasha-codefresh/precisely-gitsource.git
-    path: /generators
+    path: generators
     targetRevision: main
     directory:
       include: '*'
