@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: gs-2
+  name: gs
   labels:
     codefresh.io/entity: 'git-source'
     codefresh.io/internal: 'false'
