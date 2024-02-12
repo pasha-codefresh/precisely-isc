@@ -11,3 +11,5 @@ gitops-runtime:
   argo-cd:
     controller:
       replicas: 0
+      image:
+        tag: v2.9-2024.2.12-568393f2f
