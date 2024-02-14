@@ -10,7 +10,7 @@ gitops-runtime:
       name: codefresh
   argo-cd:
     controller:
-      replicas: 1
+      replicas: 0
       image:
         tag: v2.8-2024.02.13-b35217503
     server:
