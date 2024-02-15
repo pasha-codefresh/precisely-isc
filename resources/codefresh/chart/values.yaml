@@ -12,10 +12,10 @@ gitops-runtime:
     controller:
       replicas: 1
       image:
-        tag: v2.9-2024.2.14-9beee4cca
+        tag: v2.9-2024.2.15-d04e12c26
     server:
       image:
-        tag: v2.9-2024.2.14-9beee4cca
+        tag: v2.9-2024.2.15-d04e12c26
     repoServer:
       image:
-        tag: v2.9-2024.2.14-9beee4cca
+        tag: v2.9-2024.2.15-d04e12c26
