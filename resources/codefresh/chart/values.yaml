@@ -8,6 +8,12 @@ gitops-runtime:
           key: token
     runtime:
       name: codefresh
+      # Default logging options used by all components
+    logging:
+      # -- Set the global logging format. Either: `text` or `json`
+      format: text
+      # -- Set the global logging level. One of: `debug`, `info`, `warn` or `error`
+      level: debug
   argo-cd:
     controller:
       replicas: 1
