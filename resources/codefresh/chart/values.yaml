@@ -18,10 +18,10 @@ gitops-runtime:
     controller:
       replicas: 1
       image:
-        tag: v2.9-2024.2.15-d04e12c26
+        tag: v2.8.1-cap-CR-create-apps-with-err
     server:
       image:
-        tag: v2.9-2024.2.15-d04e12c26
+        tag: v2.8.1-cap-CR-create-apps-with-err
     repoServer:
       image:
-        tag: v2.9-2024.2.15-d04e12c26
+        tag: v2.8.1-cap-CR-create-apps-with-err
