@@ -27,7 +27,7 @@ gitops-runtime:
     repoServer:
       image:
         tag: v2.8.1-cap-CR-create-apps-with-err
-  configs:
-    policy.csv: |
-      p, michael, applications, *, demo/*, allow
-      p, michael, applications, sync, dev/*, allow
+    configs:
+      policy.csv: |
+        p, michael, applications, *, demo/*, allow
+        p, michael, applications, sync, dev/*, allow
