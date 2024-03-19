@@ -16,7 +16,7 @@ gitops-runtime:
       level: debug
   argo-cd:
     controller:
-      replicas: 0
+      replicas: 4
       image:
         tag: v2.8.1-cap-CR-create-apps-with-err
     server:
