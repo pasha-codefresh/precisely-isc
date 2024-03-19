@@ -22,6 +22,8 @@ gitops-runtime:
     server:
       image:
         tag: v2.8.1-cap-CR-create-apps-with-err
+      service:
+        type: LoadBalancer
     repoServer:
       image:
         tag: v2.8.1-cap-CR-create-apps-with-err
