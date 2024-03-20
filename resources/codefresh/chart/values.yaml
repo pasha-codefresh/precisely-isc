@@ -17,16 +17,16 @@ gitops-runtime:
   argo-cd:
     controller:
       replicas: 4
-      image:
-        tag: v2.8.1-cap-CR-create-apps-with-err
+      # image:
+      #   tag: v2.8.1-cap-CR-create-apps-with-err
     server:
-      image:
-        tag: v2.8.1-cap-CR-create-apps-with-err
+      # image:
+      #   tag: v2.8.1-cap-CR-create-apps-with-err
       service:
         type: LoadBalancer
-    repoServer:
-      image:
-        tag: v2.8.1-cap-CR-create-apps-with-err
+    # repoServer:
+    #   image:
+    #     tag: v2.8.1-cap-CR-create-apps-with-err
     configs:
       rbac:
         policy.csv: |
