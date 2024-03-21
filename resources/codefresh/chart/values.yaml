@@ -32,3 +32,4 @@ gitops-runtime:
         policy.csv: |
           p, michael, applications, *, demo/*, allow
           p, michael, applications, sync, dev/*, allow
+          p, michael, applications, get, dev/*, allow
