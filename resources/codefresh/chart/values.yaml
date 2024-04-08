@@ -27,6 +27,8 @@ gitops-runtime:
     # repoServer:
     #   image:
     #     tag: v2.8.1-cap-CR-create-apps-with-err
+    params:
+      application.namespaces: "argocd,argocd-2"
     configs:
       rbac:
         policy.csv: |
