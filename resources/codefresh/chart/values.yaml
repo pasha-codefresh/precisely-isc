@@ -29,7 +29,7 @@ gitops-runtime:
     #     tag: v2.8.1-cap-CR-create-apps-with-err
     configs:
       params:
-        application.namespaces: "argocd,argocd-2"
+        application.namespaces: "cf-test"
     #   rbac:
     #     policy.csv: |
     #       p, michael, applications, *, demo/*, allow
