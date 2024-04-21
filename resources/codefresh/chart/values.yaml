@@ -8,3 +8,30 @@ gitops-runtime:
           key: token
     runtime:
       name: codefresh
+      # Default logging options used by all components
+    logging:
+      # -- Set the global logging format. Either: `text` or `json`
+      format: text
+      # -- Set the global logging level. One of: `debug`, `info`, `warn` or `error`
+      level: debug
+  argo-cd:
+    controller:
+      replicas: 1
+      # image:
+      #   tag: v2.8.1-cap-CR-create-apps-with-err
+    server:
+      # image:
+      #   tag: v2.8.1-cap-CR-create-apps-with-err
+      service:
+        type: LoadBalancer
+    # repoServer:
+    #   image:
+    #     tag: v2.8.1-cap-CR-create-apps-with-err
+    # configs:
+    #   params:
+    #     application.namespaces: "cf-test"
+    #   rbac:
+    #     policy.csv: |
+    #       p, michael, applications, *, demo/*, allow
+    #       p, michael, applications, sync, dev/*, allow
+    #       p, michael, applications, get, dev/*, allow
