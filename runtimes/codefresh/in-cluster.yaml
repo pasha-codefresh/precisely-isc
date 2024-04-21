@@ -9,7 +9,7 @@ metadata:
   name: in-cluster
 spec:
   destination:
-    namespace: argocd
+    namespace: codefresh
     server: https://kubernetes.default.svc
   project: default
   source:
