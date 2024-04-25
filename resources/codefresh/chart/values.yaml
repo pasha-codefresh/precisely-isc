@@ -16,7 +16,7 @@ gitops-runtime:
       level: debug
   argo-cd:
     controller:
-      replicas: 0
+      replicas: 1
       image:
         tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
