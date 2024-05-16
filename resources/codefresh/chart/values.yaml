@@ -95,6 +95,8 @@ gitops-runtime:
     configs:
       cm:
           timeout.reconciliation: 180s
+            accounts.pasha: apiKey, login
+            accounts.pasha.enabled: "true"
     #   params:
     #     application.namespaces: "cf-test"
     #   rbac:
