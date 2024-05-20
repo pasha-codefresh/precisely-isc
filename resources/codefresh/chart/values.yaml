@@ -78,7 +78,7 @@ gitops-runtime:
             send:
             - app-deployed
     controller:
-      replicas: 0
+      replicas: 1
       image:
         tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
@@ -94,7 +94,7 @@ gitops-runtime:
         # tag: v2.8-2024.02.13-ee378953a
     configs:
       cm:
-          timeout.reconciliation: 180s
+          timeout.reconciliation: 0s
           accounts.pasha: apiKey, login
           accounts.pasha.enabled: "true"
     #   params:
