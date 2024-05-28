@@ -78,19 +78,25 @@ gitops-runtime:
             send:
             - app-deployed
     controller:
-      replicas: 0
+      replicas: 1
       image:
-        tag: v2.10-2024.4.21-78528ac3f
+        repo: docker.io/pashacodefresh/argocd
+        tag: latest
+        # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
     server:
       image:
-        tag: v2.10-2024.4.21-78528ac3f
+        repo: docker.io/pashacodefresh/argocd
+        tag: latest
+        # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
       service:
         type: LoadBalancer
     repoServer:
       image:
-        tag: v2.10-2024.4.21-78528ac3f
+        repo: docker.io/pashacodefresh/argocd
+        tag: latest
+        # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
     configs:
       cm:
