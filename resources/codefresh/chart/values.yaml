@@ -80,13 +80,13 @@ gitops-runtime:
     controller:
       replicas: 1
       image:
-        repo: docker.io/pashacodefresh/argocd
+        repository: docker.io/pashacodefresh/argocd
         tag: latest
         # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
     server:
       image:
-        repo: docker.io/pashacodefresh/argocd
+        repository: docker.io/pashacodefresh/argocd
         tag: latest
         # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
@@ -94,7 +94,7 @@ gitops-runtime:
         type: LoadBalancer
     repoServer:
       image:
-        repo: docker.io/pashacodefresh/argocd
+        repository: docker.io/pashacodefresh/argocd
         tag: latest
         # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
