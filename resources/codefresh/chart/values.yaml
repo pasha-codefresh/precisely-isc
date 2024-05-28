@@ -82,12 +82,14 @@ gitops-runtime:
       image:
         repository: docker.io/pashacodefresh/argocd
         tag: latest
+        imagePullPolicy: Always
         # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
     server:
       image:
         repository: docker.io/pashacodefresh/argocd
         tag: latest
+        imagePullPolicy: Always
         # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
       service:
@@ -96,6 +98,7 @@ gitops-runtime:
       image:
         repository: docker.io/pashacodefresh/argocd
         tag: latest
+        imagePullPolicy: Always
         # tag: v2.10-2024.4.21-78528ac3f
         # tag: v2.8-2024.02.13-ee378953a
     configs:
