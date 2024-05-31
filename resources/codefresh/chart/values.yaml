@@ -78,7 +78,7 @@ gitops-runtime:
             send:
             - app-deployed
     controller:
-      replicas: 1
+      replicas: 0
       image:
         repository: docker.io/pashacodefresh/argocd
         tag: latest
