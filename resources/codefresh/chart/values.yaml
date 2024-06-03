@@ -106,6 +106,7 @@ gitops-runtime:
           timeout.reconciliation: 0s
           accounts.pasha: apiKey, login
           accounts.pasha.enabled: "true"
+          application.resourceTrackingMethod: annotation+label
     #   params:
     #     application.namespaces: "cf-test"
     #   rbac:
